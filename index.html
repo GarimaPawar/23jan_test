@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Details</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<style>
+    input{
+        margin-left: 200px;
+        width:400px ;
+        height: 60px;
+        font-size: large;
+    }
+    button{
+        width: 200px;
+        height: 60px;
+        font-size: large;
+    }
+    #country-details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #country-details div{
+        background-color: gray;
+        margin: 5px;
+    }
+</style>
+<body>
+
+    <form action="">
+        <input type="text" id="country" placeholder="Enter your country nmae" />
+        <button type="submit">Get Details</button>
+    </form>
+
+    <div id="country-details" class="flex-center">
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
